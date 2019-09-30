@@ -1,0 +1,55 @@
+body {
+    background: url("images/background.jpg") no-repeat center fixed;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div.main {
+    margin: 30px auto;
+    width: 600px;
+    text-align: center;
+    border: 2px solid purple; 
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.top {
+    padding: 10px 0px 40px;
+    margin-top: 30px;
+}
+
+.info {
+    background-color: purple;
+    color: white;
+    padding: 40px 50px;
+}
+
+hr {
+    width: 400px;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 4px 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: yellow;
+}
+
+.FYP {
+    font-style: italic;
+    font-family: 'Georgia';
+}
+
+/* Targets all images that are somewhere INSIDE of the class last */
+.last img {
+    margin-left: 10px;
+}
